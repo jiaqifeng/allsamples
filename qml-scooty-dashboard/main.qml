@@ -1,11 +1,11 @@
-import QtQuick 2.15
-import QtQuick.Window 2.15
-import QtQuick.Controls 2.5
-import QtQuick.Layouts 1.3
-import Style 1.0
+import QtQuick 2.14
+import QtQuick.Window 2.14
+import QtQuick.Controls 2.14
+import Style 1.0  // due to qmlRegisterSingletonType(QStringLiteral("qrc:/StyleTheme.qml"),"Style",1,0,"Style");
 
 import "./Component"
 import "./Pages"
+
 ApplicationWindow {
     id:root
     width: 1920
@@ -45,7 +45,6 @@ ApplicationWindow {
 
         }
     }
-
     Component{
         id:mapPage
         MapPage{

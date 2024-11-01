@@ -1,7 +1,7 @@
-import QtQuick 2.15
-import QtQuick.Controls 2.5
+import QtQuick 2.14
+import QtQuick.Controls 2.14
 import QtQuick.Layouts 1.3
-import QtLocation 5.15
+import QtLocation 5.14
 import QtPositioning 5.6
 import Style 1.0
 import "../Component"

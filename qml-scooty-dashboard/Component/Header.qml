@@ -1,5 +1,5 @@
-import QtQuick 2.9
-import QtQuick.Controls 2.5
+import QtQuick 2.14
+import QtQuick.Controls 2.14
 import QtQuick.Layouts 1.3
 import Style 1.0
 
@@ -139,15 +139,15 @@ Image{
     function getWifiIcon(index){
         switch(index){
         case 1:
-            return "qrc:/Icons/topIcons/wifi/network-cellular-signal-weak-svgrepo-com.svg"
+            return "qrc:/Icons/topIcons/wifi/network-cellular-signal-weak-svgrepo-com.png"
         case 2:
-            return "qrc:/Icons/topIcons/wifi/network-cellular-signal-ok-svgrepo-com.svg"
+            return "qrc:/Icons/topIcons/wifi/network-cellular-signal-ok-svgrepo-com.png"
         case 3:
-            return "qrc:/Icons/topIcons/wifi/network-cellular-signal-good-svgrepo-com.svg"
+            return "qrc:/Icons/topIcons/wifi/network-cellular-signal-good-svgrepo-com.png"
         case 4:
-            return "qrc:/Icons/topIcons/wifi/network-cellular-signal-excellent-svgrepo-com.svg"
+            return "qrc:/Icons/topIcons/wifi/network-cellular-signal-excellent-svgrepo-com.png"
         default:
-            return  "qrc:/Icons/topIcons/wifi/network-cellular-signal-none-svgrepo-com.svg"
+            return  "qrc:/Icons/topIcons/wifi/network-cellular-signal-none-svgrepo-com.png"
         }
     }
 

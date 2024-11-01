@@ -1,6 +1,6 @@
 pragma Singleton
 
-import QtQuick 2.15
+import QtQuick 2.14
 QtObject {
     property bool isDark: false
     readonly property color background: isDark ? "#00000000" : "#DCF3F3"
